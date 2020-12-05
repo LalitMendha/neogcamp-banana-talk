@@ -1,11 +1,23 @@
+<!-- HTML is read from top to bottom so it is better to keep script tag at the end of body. -->
+<!-- DOM - Document object model - Modelling the entire document as object -->
+<!-- emojipedia - for emoji -->
+<!-- Postman is the way to test the server and what the output is based on input -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>banana talk</title>
+    <link href="style.css" rel="stylesheet" />
 </head>
+
 <body>
-    
+    <textarea id="text-input" placeholder="Enter your text here"></textarea>
+    <button id="btn-translate">Translate</button>
+    <div style="font-size: larger">Output will come here 👇</div>
+    <div id="outputDiv" class="output"></div>
+    <script src="app.js" type="text/javascript"></script>
 </body>
+
 </html>
